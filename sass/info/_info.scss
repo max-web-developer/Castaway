@@ -1,0 +1,23 @@
+.info{
+    &__wrapper{
+        margin-top: 60px
+    }
+    &__top{
+        @include flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title{
+        @include font-style;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 79px;
+        letter-spacing: 2.88px;
+        color: #FFFFFF;
+    }
+    &__button{
+        .btn{
+            @include btn;
+        }
+    }
+}

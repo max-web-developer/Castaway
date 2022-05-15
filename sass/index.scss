@@ -1,0 +1,32 @@
+@import "./mixins/mixin";
+@import "./mixins/veriables";
+@import "./header/header";
+@import "./about/about";
+@import "./info/info";
+@import "./review/review";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: $bg;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 768.01px) and (max-width: 1000px) {
+    .container{
+        width: 1300px;
+    }
+}
+@media screen and (min-width: 768.01px) and (max-width: 480.01px) {
+    .container{
+        width: 1300px;
+    }
+}
+
+
+

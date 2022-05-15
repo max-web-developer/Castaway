@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sass": "^1.51.0"
+  },
+  "name": "castaway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass ./sass:./files/styles -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

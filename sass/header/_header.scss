@@ -1,0 +1,96 @@
+.logo {
+    width: 160px;
+}
+
+.mini-logo {
+    width: 32px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    &__wrapper {
+        margin-top: 26px
+    }
+
+    &__top {
+        @include flex;
+        align-items: center;
+        margin-bottom: 40px;
+        justify-content: space-between;
+    }
+
+    &__img {
+        width: 650px;
+    }
+
+    &__list {
+        &-items {
+            @include flex;
+            justify-content: space-between;
+            width: 500px;
+
+            &_item {
+                @include font-style;
+                color: $white;
+                font-size: 17px;
+            }
+
+            &_item:hover {
+                color: $blue;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    &__container {
+        @include flex;
+        align-items: center;
+    }
+
+    &__right {
+        margin-left: 60px;
+
+        &-title {
+            @include font-style;
+            color: $white;
+            font-size: 70px;
+            line-height: 88px;
+            width: 556px;
+            padding-bottom: 30px;
+
+            &_bold {
+                font-weight: 700;
+                font-size: 80px;
+            }
+
+            &_underline {
+                text-decoration: underline $blue 5px;
+            }
+        }
+    }
+
+    .logotips {
+        
+        &__title {
+            @include font-style;
+            color: $white;
+            font-size: 17px;
+            padding-bottom: 30px
+        }
+
+        &__images {
+            @include flex;
+            justify-content: space-between;
+            width: 289px;
+        }
+    }
+}
+
+

@@ -1,0 +1,21 @@
+@import url(/sass/mixins/_mixin.scss);
+@import url(/sass/_header.scss);
+@import url(/sass/_info.scss);
+@import url(/sass/_about.scss);
+@import url(/sass/_review.scss);
+.container {
+  max-width: 1300px;
+}
+
+@media screen and (min-width: 768.01px) and (max-width: 1000px) {
+  .container {
+    width: 1300px;
+  }
+}
+@media screen and (min-width: 768.01px) and (max-width: 480.01px) {
+  .container {
+    width: 1300px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
